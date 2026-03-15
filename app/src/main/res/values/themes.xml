@@ -1,0 +1,4 @@
+<resources>
+    <!-- NoActionBar so Compose controls the entire window -->
+    <style name="Theme.DeclineSquatTracker" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
