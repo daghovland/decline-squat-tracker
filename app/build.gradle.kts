@@ -50,7 +50,7 @@ dependencies {
     //   runtime  — the actual DB engine wrapper
     //   ktx      — coroutine/Flow extensions (suspend functions, Flow queries)
     //   compiler — KSP annotation processor that generates the implementation at build time
-    val roomVersion = "2.6.1"
+    val roomVersion = "2.7.0"
     implementation("androidx.room:room-runtime:$roomVersion")
     implementation("androidx.room:room-ktx:$roomVersion")
     ksp("androidx.room:room-compiler:$roomVersion")
